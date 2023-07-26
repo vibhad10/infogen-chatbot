@@ -5,17 +5,17 @@
 
 
 ## Topics this Chatbot Addresses
-### • Name Introductions
-### • CEO Name
-### • CTO Name
-### • When the Company Was Founded
-### • Company Mission
-### • Company Website
-### • Company Locations
-### • Number of Employees
-### • Type of Enterprise
-### • What Clients Has This Company Worked For
-### • Range of Employee Roles and Current Available Roles
+#### • Name Introductions
+#### • CEO Name
+#### • CTO Name
+#### • When the Company Was Founded
+#### • Company Mission
+#### • Company Website
+#### • Company Locations
+#### • Number of Employees
+#### • Type of Enterprise
+#### • What Clients Has This Company Worked For
+#### • Range of Employee Roles and Current Available Roles
 
 
 ## domain.yml
