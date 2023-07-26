@@ -1,0 +1,89 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+  
+# Added Text
+
+- story: my_name_is path
+  steps:
+  - intent: my_name_is
+  - action: utter_my_name_is
+
+- story: name_ceo path
+  steps:
+  - intent: name_ceo
+  - action: utter_name_ceo
+
+- story: name_cto path
+  steps:
+  - intent: name_cto
+  - action: utter_name_cto
+
+- story: company_start_point path
+  steps:
+  - intent: company_start_point
+  - action: utter_company_start_point
+
+- story: purpose path
+  steps:
+  - intent: purpose
+  - action: utter_purpose
+  
+- story: company_link path
+  steps:
+  - intent: company_link
+  - action: utter_company_link
+  
+- story: locations path
+  steps:
+  - intent: locations
+  - action: utter_locations
+  
+- story: employees path
+  steps:
+  - intent: employees
+  - action: utter_employees
+  
+- story: company_type path
+  steps:
+  - intent: company_type
+  - action: utter_company_type
+  
+- story: clients path
+  steps:
+  - intent: clients
+  - action: utter_clients
+
+- story: employee_roles path
+  steps:
+  - intent: employee_roles
+  - action: utter_employee_roles
+  
+  

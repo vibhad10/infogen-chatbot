@@ -1,0 +1,81 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - courses
+  - my_name_is
+  - ask_apply_online
+  - ask_placements
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+## Added Text
+
+  utter_my_name_is:
+  - text: "Nice to meet you {person}"
+
+  utter_name_ceo:
+  - text: "The CEO of Infogen Labs is Sanjeev Kuwadekar. He has been been in this position for over 6 years, managing over 400 employees over 3 continents."
+
+  utter_name_cto:
+  - text: "The CTO of Infogen Labs is Vibha Dabholkar, who has been carrying out responsibilities including strategic and financial direction for the company for 3 months."
+
+  utter_company_start_point:
+  - text: "This growing company was first started in May of 2015 by Rahul Patil."
+  - text: "Rahil Patil founded this company in May of 2015 and it has seen a huge growth since then."
+  
+  utter_purpose:
+  - text: "Our mission is to drive innovation and deliver exceptional results for our customers. We believe in fostering creativity, collaboration, and clear communication to find new and better solutions to the toughest challenges. Our business units are designed to meet the ever-evolving needs of our customers, and our commitment to quality ensures that we deliver the best possible products and services. By staying at the bleeding edge of technology and embracing a culture of continuous learning, we strive to be a strategic technology partner for businesses everywhere."
+  - text: "Our core objective is to foster innovation and achieve extraordinary outcomes for our valued clientele. We firmly believe in nurturing creativity, fostering collaboration, and maintaining transparent communication to discover novel and improved solutions to the most formidable obstacles. Our well-designed business units are dedicated to adapting to the constantly changing requirements of our customers, while our unwavering dedication to quality guarantees the delivery of top-notch products and services. By consistently embracing cutting-edge technology and cultivating a culture of perpetual learning, our aspiration is to serve as a strategic technology partner for enterprises across the globe."
+  
+  utter_company_link:
+  - text: "Sure. http://corp.infogen-labs.com/index.html"
+  - text: "Absolutely. http://corp.infogen-labs.com/index.html"
+  
+  utter_locations:
+  - text: "We are a global digital consulting company focused on building scalable software solutions and products from the ground up. Our offices span in the United States, Canada, India, and Europe."
+  - text: "As a worldwide digital consulting firm, our primary focus lies in constructing scalable software solutions and products right from the inception. With a presence in multiple locations across the United States, Canada, India, and Europe, we extend our services to a global clientele."
+  - text: "Our company is a global digital consulting firm with a dedicated emphasis on developing scalable software solutions and products from scratch. With office locations spanning the United States, Canada, India, and Europe, we serve clients worldwide."
+  
+  utter_employees:
+  - text: "We currently have 400+ employees all around the world working for Infogen Labs."
+  
+  utter_company_type:
+  - text: "Infogen Labs is current a B2B company (Business-to-Business). This means that we create many products that are then utilized by other companies."
+  - text: "At present, Infogen Labs operates as a B2B enterprise, which signifies that we specialize in producing numerous products intended for utilization by other companies."
+  
+  utter_clients:
+  - text: "In the past, we have worked with Salesforce, Google, Frontida Records, Civilience, and other startups as well."
+  
+  utter_employee_roles:
+  - text: "We believe in working hand in hand towards personal and organizational growth, and we're looking for dedicated employees who share that vision. We offer roles in many departments ranging from fintech and business to machine learning and product devleopment. Here are the current openings: Business Development Executive, Senior QA Engineer, PHP Developer, .Net MVC Developer, .Net Azure Developer. For more information please go to this link on our website: http://corp.infogen-labs.com/career.html"
+  - text: "Our core belief revolves around fostering mutual growth for both individuals and the organization, and we are in search of committed employees who resonate with this vision. We provide opportunities in various departments, spanning from fintech and business to machine learning and product development. Our current job openings include positions for Business Development Executive, Senior QA Engineer, PHP Developer, .Net MVC Developer, and .Net Azure Developer. For further details, please visit the following link on our website: http://corp.infogen-labs.com/career.html"
+  - text: "At our company, we strongly believe in collaborative efforts for personal and organizational growth, and we are seeking dedicated individuals who share this vision. We have job openings available in multiple departments, encompassing fintech, business, machine learning, and product development. Currently, we have vacancies for the roles of Business Development Executive, Senior QA Engineer, PHP Developer, .Net MVC Developer, and .Net Azure Developer. For more information about these positions, please visit our website at http://corp.infogen-labs.com/career.html"
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

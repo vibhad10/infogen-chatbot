@@ -1,0 +1,225 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    
+## Added Text
+
+- intent: my_name_is
+  examples: |
+   - [Vibha Dabholkar] (person)
+   - I am [Davalyn] (person)
+   - I am [Lakshmi] (person)
+   - I'm [Lauren] (person)
+   - I am [Rahil Saik] (person)
+   - My name is [Amy Zhou] (person)
+   - My name is [Naomi] (person)
+   - I am [Selena] (person)
+   - Myself [Sanjeev] (person)
+   - This side [Amit Mettapalli] (person)
+
+- intent: name_ceo
+  examples: |
+    - who is the ceo
+    - ceo of infogen labs
+    - ceo
+    - could you tell me the ceo of infogen labs
+    - what is the name of your ceo
+    - who is your ceo
+    - who is the ceo of your company
+    - name the ceo
+
+- intent: name_cto
+  examples: |
+    - who is the cto
+    - cto of infogen labs
+    - cto
+    - could you tell me the cto of infogen labs
+    - what is the name of your cto
+    - who is your cto
+    - who is the cto of your company
+    - name the cto
+    
+- intent: company_start_point
+  examples: |
+    - when did this company first start
+    - company start date
+    - when was company founded
+    - who founded the company
+    - who created this company
+    - company creation time
+    - creation of company
+    - company development
+
+- intent: purpose
+  examples: |
+    - what does infogen labs do
+    - what does this company provide
+    - what are is this company's purpose
+    - company purpose
+    - tell me what this company does
+    - describe the company's role
+    
+- intent: company_link
+  examples: |
+    - company website
+    - is there a website for Infogen Labs
+    - please direct me to the company's website
+    - do you have a website
+    - Infogen Labs website
+    - is there a link for this company
+    - take me to Infogen Lab link
+    - company url
+    
+- intent: locations
+  examples: |
+    - in what countries is InfogenLabs located in
+    - state office locations
+    - where are you offices
+    - what continents do you offices cover
+    - is your office only in India
+    - where do your offices span
+    - please list your offices
+
+- intent: employees
+  examples: |
+    - how many employees work at Infogen Labs
+    - how many employees do you have
+    - number of people working at infogen labs
+    - can you tell me the amoutn of employees at your company
+    - employee amount
+    - employee number
+    
+- intent: company_type
+  examples: |
+    - b2b or b2c?
+    - what type of company is InfogenLabs
+    - who does the company create products for
+    - is this company business to business
+    - is infogen labs considered to be business to consumer
+    - does this company consult for businesses
+    - who does this company consult for
+    
+- intent: clients
+  examples: |
+    - what clients have you assisted in the past
+    - who have you helped
+    - what companies have you built products for
+    - list past companies and clients
+    - please give examples of companies you helped in the past
+    - past clientels
+    - previous companies description
+    - what companies have you consulted for
+    - company names that Infogen assisted
+    - Infogen Labs developed products for who
+    - what businesses has InfogenLabs helped
+    - InfoGen Labs clients
+    
+- intent: employee_roles
+  examples: |
+    - employees
+    - what type of employees work here
+    - who works here
+    - what roles do you hire for
+    - what jobs does this company have
+    - what are the majority of jobs at Infogen
+    - InfogenLabs has what roles
+    - please describe employee knowledge base
+    - what do most workers do
+    - describe your workers
+    - list the employee jobs
+    - what areas do employees cover at this company
+    - what jobs
+    - jobs
+    - roles
+    - list worker types
+    
+
